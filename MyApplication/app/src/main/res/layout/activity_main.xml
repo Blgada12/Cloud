@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center|top"
+        android:background="#fffb00">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이마스"
+            android:textColor="#f40000"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="40sp"
+            android:text="신데마스"
+            android:textColor="#ff4800" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0008"
+            android:text="본가 끄정"
+            android:textColor="#3cff00"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0008"
+            android:layout_marginLeft="10dp"
+            android:text="분가짱짱"
+            android:textColor="#3cff00"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
